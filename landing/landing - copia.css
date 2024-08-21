@@ -1,0 +1,255 @@
+
+/* 
+normalize:
+
+<link rel="stylesheet" type="text/css" href="../normalize.css"> https://necolas.github.io/normalize.css/8.0.1/normalize.css 
+y editarle 
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+fonts:
+<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Exo:ital,wght@0,100;0,200;1,100&family=Oleo+Script+Swash+Caps&family=Quicksand:wght@300;400&family=Square+Peg&family=Uchen&display=swap" rel="stylesheet">
+
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Square Peg', cursive;
+font-family: 'Uchen', serif; */
+/*
+.color1 { #230b00 };
+.color2 { #a29d7f };
+.color3 { #d4cfa5 };
+.color4 { #f8ecd4 };
+.color5 { #aabe9b };
+
+/*________________________________estabilizer and grid__________________________________________________________________________________*/
+* {
+font-family: 'Quicksand', sans-serif;
+box-sizing: border-box;
+
+background-color: #f8ecd4;
+}
+
+
+
+/*______________________________header__________________________________*/
+.header{
+  height: 200px;
+  z-index: 99;
+  color: #a29d7f;
+}
+.div-header{
+  
+}
+.tittleh2{
+  padding-top: 40px;
+  
+  text-align: center;
+  box-sizing: content-box;
+  font-size: 20px;
+}
+.tittleh1{
+  
+  margin-top: -10px;
+  justify-content: center;
+  text-align: center;
+  box-sizing: content-box;
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+/*___________________________main_____________________________________*/
+
+
+.main-div{
+  padding: 25px;
+  margin: 40px 20px 20px;
+  background-color: #fffcee;
+  
+}
+/*___________________________section1_____________________________________*/
+
+.section1{
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ margin: 20px;
+ width: ;
+ height: 400px;
+ background-color: #fffcee;
+ border-radius: 6px;
+ 
+}
+.section1-div{
+  background-color: #fffcee;
+  width: 30%;
+  height: 60%;
+  
+}
+.p1-section1{
+  background-color: #fffcee;
+  color: #a29d7f;
+  
+}
+.imagen4{
+  
+  background-color: #fffcee;
+  
+}
+
+/*___________________________section2_____________________________________*/
+.section2{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  width: 45%;
+  height: 300px;
+  background-color: #fffcee;
+  border-radius: 6px;
+  
+ }
+
+.section2-div{
+  background-color: #fffcee;
+  width: 220px;
+  height: 260px;
+  
+  
+}
+.p2-section2{
+  background-color: #fffcee;
+  color: #a29d7f;
+  
+}
+.imagen8{
+  height: 100%;
+  
+  
+  background-color: #fffcee;
+  
+}
+/*___________________________section3_____________________________________*/
+
+.main-p{
+  text-align: center;
+  margin: 10px 0px -10px;
+  background-color: #fffcee;
+  color: #a29d7f;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+
+
+/*___________________________aside_____________________________________*/
+
+.aside{
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 00px 10px 40px 00px; 
+
+
+}
+
+.link-aside {
+  color: #a29d7f;
+  font-size: 25px; 
+}
+.link-aside:hover {
+  color: #484639;
+}
+
+
+/*__________________________footer______________________________________*/
+.footer{
+  
+  background-color: #230b00;
+  color: #f8ecd4;
+  display: ;
+  
+}
+.footer-div{
+  background-color: #230b00;
+}
+.footer-p{
+  background-color: #230b00;
+}
+.barrita{
+ 
+ text-align: center;
+ 
+}
+.link-footer{
+  color: #a29d7f;
+     
+     text-decoration: none;
+}
+
+/*_____________________________desktop view___________________________________*/
+
+@media (max-width: 768px) {
+  .aside {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  
+
+
+    
+  }
+  .barrita{
+    display: inline-block;
+    text-align: center;
+    padding: 1px 0px 15px 20px;
+    min-width: 342px;
+    
+   }
+   .link-footer{
+    
+     color: #a29d7f;
+     margin: 0px 10px 0px 0px;
+     text-decoration: none;
+     font-size: 25px;
+     text-align: center; 
+   }
+   .link-footer:hover {
+    color: #484639;
+  }
+  /*___________________________main_____________________________________*/
+
+.main{
+    padding: 20px;
+  }
+.main-div{
+  padding: 25px;
+  margin: 40px ;
+  background-color: #fffcee;
+  max width: 400px;
+  width: 400px;
+}
+
+.main-p{
+  text-align: center;
+  background-color: #fffcee;
+  color: #a29d7f;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+
+}
